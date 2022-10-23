@@ -1,17 +1,13 @@
 // Import data
+import Gallery from './Gallery'
 
 // Import components
 import './App.css';
 
 function App(){
   return (
-    <div>
-      <h1>craigslist</h1>
-      <div className="App">
-        {/* Your content will go here! */}
-      </div>
-    </div>
-  );
+      <Gallery />
+  )
 }
 
 export default App;
